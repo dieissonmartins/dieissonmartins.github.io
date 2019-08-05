@@ -51,4 +51,7 @@ html, body {
 
 .avatar-img figure img{
 	border-radius: 50%;
+	width: 263px;
+    height: auto;
 }
+
