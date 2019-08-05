@@ -4,67 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Dieisson Martins</title>
-	<link rel="stylesheet" href="csss/estilo.css">
+	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Dieisson Martins dos Santos Programador de Sitemas de Informação">
     <meta name="keywords" content="WordPress, frontend, banckend, CMS,Sites">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Dieisson Martins dos Santos">
- 	<!-- Styles -->
-	<style>
-		html, body {
-			background-color: #FFF;
-			color: #636b6f;
-			font-family: 'Raleway', sans-serif;
-			font-weight: 100;
-			height: 100vh;
-			margin: 0;
-		}
-
-		.full-height {
-			height: 100vh;
-		}
-
-		.flex-center {
-			align-items: center;
-			display: flex;
-			justify-content: center;
-		}
-
-		.position-ref {
-			position: relative;
-		}
-
-		.top-right {
-			position: absolute;
-			right: 10px;
-			top: 18px;
-		}
-
-		.content {
-			text-align: center;
-		}
-
-		.title {
-			font-size: 84px;
-		}
-
-		.links > a {
-			color: #636b6f;
-			padding: 0 25px;
-			font-size: 12px;
-			font-weight: 600;
-			letter-spacing: .1rem;
-			text-decoration: none;
-			text-transform: uppercase;
-		}
-
-		.m-b-md {
-			margin-bottom: 30px;
-		}
-	</style>
+	<meta name="author" content="Dieisson Martins dos Santos">
 </head>
 <body>
 	<div class="flex-center position-ref full-height">
@@ -82,50 +29,8 @@
 	</div>
 
 	<footer>
-		<script language="Javascript">
-			var YY = 2020;
-			var MM = 12;
-			var DD = 18;
-			var HH = 21;
-			var MI = 59;
-			var SS = 59; 
-			
-			function atualizaContador() 
-			{  
-				var hoje = new Date();  
-				var futuro = new Date(YY,MM-1,DD,HH,MI,SS);
-				
-				var ss = parseInt((futuro - hoje) / 1000);  
-				var mm = parseInt(ss / 60);  
-				var hh = parseInt(mm / 60);  
-				var dd = parseInt(hh / 24);   
-				ss = ss - (mm * 60);  
-				mm = mm - (hh * 60);  
-				hh = hh - (dd * 24);   
-				var faltam = '';  
-				faltam += (dd && dd > 1) ? dd+' dias, ' : (dd==1 ? '1 dia, ' : '');  
-				faltam += (toString(hh).length) ? hh+' horas, ' : '';  
-				faltam += (toString(mm).length) ? mm+' minutos e ' : '';  
-				faltam += ss+' seg';   
-				
-				 if (dd+hh+mm+ss > 0) 
-				 {
-				  document.getElementById('contador').innerHTML = faltam;	
-				  setTimeout(atualizaContador,1000);  
-				 }
-				 else
-				 {
-				  document.getElementById('contador').innerHTML = 'CHEGOU!!!!';	
-				  setTimeout(atualizaContador,1000);  
-				 }
-			}
-
-			//inicia função 
-			atualizaContador();
-		</script>
+		<script src="js/contador-formatura.js"></script>
 	</footer>
-
-
 </body>
 </html>
 
