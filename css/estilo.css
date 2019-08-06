@@ -76,6 +76,10 @@ footer p{
 	margin-bottom: 0.8em;
 }
 
+.fa-print{
+	color: #d53030;
+}
+
 @media (max-width: 600px){
 	.content{
 		width: 90%;
@@ -87,4 +91,13 @@ footer p{
 		width: 40%;
     	margin: 0 auto;
 	}
+}
+
+@media print {
+	.title{
+		font-size: 2em;
+	}
+	ul li{
+		font-size: 0.5em;
+	}	
 }
