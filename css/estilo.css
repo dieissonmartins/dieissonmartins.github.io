@@ -17,6 +17,10 @@ ul{
 	list-style-type: square;
 }
 
+ul li{
+	padding-bottom: 0.2em;
+}
+
 .full-height {
 	height: 100vh;
 }
@@ -42,7 +46,7 @@ ul{
 }
 
 .title {
-	font-size: 84px;
+	font-size: 5em;
 }
 
 .links > a {
