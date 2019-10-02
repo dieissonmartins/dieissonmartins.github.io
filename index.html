@@ -13,143 +13,106 @@
     <meta name="keywords" content="WordPress, frontend, banckend, CMS,Sites">
     <meta name="robots" content="index, follow">
 	<meta name="author" content="Dieisson Martins dos Santos">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+    <link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+    <link rel="canonical" href="https://codepen.io/bphillips201/pen/jCuDA?depth=everything&limit=all&order=popularity&page=6&q=avatar&show_forks=false" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js'></script>
+
+
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+    
+
 </head>
+
 <body>
-	<header>
+    <header>
+        <div style="background: #388bd1; padding-top: 8px;">
+            <div class="container contador" >
+                <p class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span id="contador"></span></p>
+            </div>
+        </div>
+        
+        <figure>
+            <img class="me" src="https://avatars1.githubusercontent.com/u/41637426?s=460&v=4" alt="" />
+        </figure>
 
-	</header>
-	<main class="flex-center position-ref full-height">
-		
-		<section class="content">
-			<div class="m-b-md avatar-img">
-				<figure>
-					<img src="https://avatars1.githubusercontent.com/u/41637426?s=460&v=4">
-				</figure>
-			</div>
-			<div class="title m-b-md">
-				Dieisson Martins
-			</div>
-			<div class="links">
-				<a class="btn btn-success" href="https://github.com/dieissonmartins" target="_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
-				<a class="btn btn-success" href="https://www.linkedin.com/in/dieisson-martins/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-				<!---<a class="btn btn-success" href="#" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-				<a class="btn btn-success" href="https://www.instagram.com/dieissonmartinss/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-				<a class="btn btn-success" href="https://twitter.com/home" target="_blank"><i class="fa fa-2x fa-twitter-square fa-3x" aria-hidden="true"></i></a>-->
-				<a class="btn btn-success" href="https://profile.codersrank.io/user/dieissonmartins" target="_blank"><i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i></a>
-				<a class="btn btn-success" href="https://stackoverflow.com/users/11902320/dieisson-martins" target="_blank"><i class="fa fa-stack-overflow fa-3x" aria-hidden="true"></i></a>
-				<a class="btn btn-success" href="#" target="_blank" onclick="imprimir()"><i class="fa fa-print fa-3x" aria-hidden="true"></i></a>
-				<a class="btn btn-success" href="#" onclick="noite()"><i class="fa fa-moon-o fa-3x" aria-hidden="true"></i></a>
-			</div><br>
-			<i class="fa fa-graduation-cap" aria-hidden="true"></i> <span id="contador"></span>
-			<hr>
+        <div class="container">
+            <h3 class="text-center nome">DIEISSON MARTINS</h3>
+        </div>
+            
+        <div class="social text-center">
+          <a href="https://github.com/dieissonmartins"><i id="github" class="icon-github"></i></a>
+          <a href="https://www.linkedin.com/in/dieisson-martins/"><i id="linkedin" class="icon-linkedin-sign"></i></a>
+          <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i id="mail" class="icon-envelope"></i></a>
+          <a href="https://profile.codersrank.io/user/dieissonmartins"><i id="code" class="icon-code"></i></a>
+          <a href="https://stackoverflow.com/users/11902320/dieisson-martins"><i id="stack" class="icon-stackexchange"></i></a>
+          <!--<a href="https://twitter.com/bphillips201"><i id="twitter" class="icon-twitter"></i></a>-->
+          <!--<a href="#" onclick="imprimir()"><i id="imprimir" class="fa fa-print"></i></a>-->
+		  <!--<a href="#" onclick="noite()"><i class="fa fa-moon-o"></i></a>-->
+          <!--<i id="plus" class="icon-google-plus-sign"></i>-->
+        </div>          
+    </header>
+        <br><br><hr>
+    <main><!--
+          <section class="container">
+                <div class="owl-carousel">
+                    <div>
+                        <figure>
+                            <img src="imagens/css3.png">
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="imagens/css3.png">
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="imagens/css3.png">
+                        </figure>
+                    </div>
+                    <div>
+                        <figure>
+                            <img src="imagens/css3.png">
+                        </figure>
+                    </div>
+                  
+                </div>-->
+                <p class="text-center">novo site em breve</p>
+          </section>
+    </main>
+    <script>
+       $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                loop:true,
+            });
+        });
 
-			<div class="topico"> 	
-				<h3>Dados Pessoais:</h3>
-				<ul>
-					<li>Data de nascimento: 09/04/1998</li>
-					<li>Local: Novo Cruzeiro - MG</li>
-					<li>E-mail: dieisson.martins.santos@gmail.com</li>
-					<li>Celular: +5533988643983</li>
-				</ul>
-			</div>
-
-			<div class="topico"> 	
-				<h3>Experiência Profissional:</h3>
-				<ul>
-					<li><b>Programador de Sistemas de Informação</b> jan de 2018 – o momento
-						<ul>
-							<li>Desenvolvimento e manutenção de aplicações web </li>
-							<li>Implantação de aplicações web </li>
-							<li>Realizar a manutenção e criação de novas funcionalidades </li>
-							<li>Desenvolvimento de funcionalidades no Back-End </li>
-							<li>Desenvolvimento de funcionalidades no Front-end </li>
-							<li>Aplicar melhores práticas de documentação de código desenvolvido </li>
-							<li>Buscar novas ferramentas e técnicas para a melhoria contínua dos sistemas </li>
-							<li>Processamento de banco de dados MySQL </li>
-							<li>Treinamento estagiários</li>
-						</ul>
-					</li>	
-					<li><b>Suporte Técnico</b> nov de 2016 – dez de 2017
-						<ul>
-							<li>Treinamento usabilidade dos sistemas homologados pelos clientes</li>
-							<li>Implantação dos sistemas contratados pelos clientes</li>
-							<li>Criação, edição, publicação e distribuição de informação em sistemas gerenciadores de conteúdo</li>
-							<li>Atendimento e suporte técnico ao cliente</li>
-							<li>Relacionamento entre os setores da empresa</li>
-							<li>Treinamento estagiários</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-
-			<div class="topico"> 	
-				<h3>Formação:</h3>
-				<ul>
-					<li>Centro Universitário Presidente Antônio Carlos - UNIPAC 
-					</br> Bacharelado Sistemas de Informação  2017 – 2020 </br>
-					<a href="http://www.unipacto.com.br">www.unipacto.com.br</a>
-				</li>
-
-				</ul>
-			</div>
-
-			<div class="topico"> 	
-				<h3>Formação Complementar:</h3>
-				<ul>
-					<li>CURSO DE WORDPRESS - <a href="https://drive.google.com/file/d/1QzUakHg_DEr_ujxKjaI65iVyORlges0r/view" target="_black">Visualizar credencial</a></li>
-					<li>CURSO DE HTML E CSS ESSENCIAL - <a href="https://drive.google.com/file/d/1XjVGA5HIXv9Q6moJdaJfWuRkIC1R14pY/view" target="_black">Visualizar credencial</a></li>
-					<li>CURSO CRIAR TEMAS PARA WORDPRESS - <a href="https://drive.google.com/file/d/1LCDU709I5AFReBJnT7jVaqmhn6EROThK/view" target="_black">Visualizar credencial</a></li>
-					<li>PROJETOS DE SISTEMAS DE TI - <a href="https://drive.google.com/file/d/1T8fFvLOYD9dY2LSBICB7LuN8u77W9cVh/view" target="_black">Visualizar credencial</a></li>
-					<li>LINGUAGEM DE MODELAGEM UNIFICADA (UML) - <a href="https://drive.google.com/file/d/1afZob1x-EsJK6ll7_8zi_nd2H-LQem1l/view" target="_black">Visualizar credencial</a></li>
-					<li>INTRODUÇÃO À LINGUAGEM JAVASCRIPT - <a href="https://drive.google.com/file/d/1niPwiZcgzRwN5qVc6Soc2hl8_FI7osNn/view" target="_black">Visualizar credencial</a></li>
-					<li>INTRODUÇÃO AO JQUERY - <a href="https://drive.google.com/file/d/1VbdohubgX3pv4razE3cJJzkyrAvgJzlH/view" target="_black">Visualizar credencial</a></li>
-					<li>MINI-CURSO: COMEÇAR CARREIRA EM WEB DESIGN - <a href="https://drive.google.com/file/d/14BGt5_Ms_WOj1OUf2zCq04T5R3sCupyy/view" target="_black">Visualizar credencial</a></li>
-				</ul>
-			</div>
-
-			<div class="topico"> 	
-				<h3>Méritos:</h3>
-				<ul>
-					<li>3º Terceira colocação na HACKCDL - Teófilo Otoni - <a href="https://www.linkedin.com/pulse/3%C2%BA-terceira-coloca%C3%A7%C3%A3o-na-hackcdl-te%C3%B3filo-otoni-dieisson-martins/" target="_black">Ver</a></li>
-				</ul>
-			</div>
-
-			<div class="topico"> 	
-				<h3>Conhecimentos em Informática:</h3>
-				<ul>
-					<li>Framework Laravel</li>
-					<li>Framework WordPress</li>
-					<li>Front-end - Html, css, javaScript, Jquery</li>
-					<li>Back-end - PHP</li>
-					<li>Banco de dados MySQL</li>
-				</ul>
-			</div>
-
-			<div class="topico"> 	
-				<h3>Eventos:</h3>
-				<ul>
-					<li>Evento Spark Week 2017 - Teófilo Otoni <a href="https://drive.google.com/file/d/1t3g5J_yjJrCqD9wpYPR3ueoBatIn5-nn/view" target="_black">Visualizar credencial</a></li>
-				</ul>
-			</div>
-
-			<div class="topico"> 	
-				<h3>Idiomas:</h3>
-				<ul>
-					<li>Português - Fluente ou nativo</li>
-					<li>Inglês - Basico</li>
-				</ul>
-			</div>
-
-		</section>
-
-	</main>
-
-	<footer  class="content">
-		<script src="js/contador-formatura.js"></script>
+    </script>
+    <footer>
+        <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="js/contador-formatura.js"></script>
 		<script src="js/imprimir.js"></script>
-		<script src="js/lua.js"></script>
-		<!--<p>© Dieisson Martins dos Santos - Programador de Sistemas <?php echo date() ?></p> -->
-	</footer>
-</body>
-</html>
+        <script src="js/lua.js"></script>
+        <script src="js/icons-animacao.js"></script>  
+        
+      
+        <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    </footer>
 
+
+</body></html>
