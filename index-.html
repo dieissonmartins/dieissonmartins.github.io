@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dieisson Martins dos Santos Programador de Sitemas de Informação">
+    <meta name="keywords" content="WordPress, frontend, banckend, CMS,Sites">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Dieisson Martins dos Santos">
+    <title>Dieisson Martins</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <!-- Stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/docs.theme.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Yeah i know js should not be in header. Its required for demos.-->
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   
+
+    <!-- javascript -->
+    
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    
+    <style>
+      .item img{
+        padding: 20px;
+      }
+
+      .home-demo .item{
+        background: #ffd800;
+        border-radius: 13px;
+      }
+    </style>
+  </head>
+  <body>
+
+      <header>
+          <div style="background: #388bd1; padding-top: 8px;">
+              <div class="container contador" >
+                  <p class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span id="contador"></span></p>
+              </div>
+          </div>
+          
+          <figure>
+              <img class="me" src="https://avatars1.githubusercontent.com/u/41637426?s=460&v=4" alt="" />
+          </figure>
+  
+          <div class="container">
+              <h3 class="text-center nome">DIEISSON MARTINS</h3>
+          </div>
+              
+          <div class="social text-center">
+            <a href="https://github.com/dieissonmartins"><i id="github" class="icon-github"></i></a>
+            <a href="https://www.linkedin.com/in/dieisson-martins/"><i id="linkedin" class="icon-linkedin-sign"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i id="mail" class="icon-envelope"></i></a>
+            <a href="https://profile.codersrank.io/user/dieissonmartins"><i id="code" class="icon-code"></i></a>
+            <a href="https://stackoverflow.com/users/11902320/dieisson-martins"><i id="stack" class="icon-stackexchange"></i></a>
+            <!--<a href="https://twitter.com/bphillips201"><i id="twitter" class="icon-twitter"></i></a>-->
+            <!--<a href="#" onclick="imprimir()"><i id="imprimir" class="fa fa-print"></i></a>-->
+        <!--<a href="#" onclick="noite()"><i class="fa fa-moon-o"></i></a>-->
+            <!--<i id="plus" class="icon-google-plus-sign"></i>-->
+          </div>          
+      </header>
+    <!-- body -->
+    <div class="home-demo">
+      <div class="row">
+        <div class="large-12 columns">
+          <!--<h3>Demo</h3>-->
+          <div class="owl-carousel">
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+            <div class="item">
+              <img src="assets/img/css3.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        loop: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 4
+          },
+          1000: {
+            items: 9
+          }
+        }
+      })
+    </script>
+
+    
+    <!-- vendors -->
+    <script src="assets/vendors/highlight.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <footer>
+       <script src="assets/js/contador-formatura.js"></script>
+		    <script src="assets/js/imprimir.js"></script>
+        <script src="assets/js/lua.js"></script>
+    </footer>
+  </body>
+</html>
