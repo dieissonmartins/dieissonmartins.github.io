@@ -178,7 +178,6 @@ footer p{
   .customNavigation{
 	text-align: center;
   }
-  //use styles below to disable ugly selection
   .customNavigation a{
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -195,9 +194,13 @@ footer p{
   */
 
 
-  .owl-item div figure img{
+  .owl-item div img{
 	background: #ffd800;
     padding: 5%;
 	border-radius: 6%;
 	
+  }
+
+  .owl-carousel .owl-item img{
+	width: 30% !important;
   }

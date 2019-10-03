@@ -1,0 +1,52 @@
+
+/*---------------------------NOVO SITE ----------------------------------*/
+.nome{
+	color: #388bd1;
+}
+.me {
+	display: block;
+	margin: 0.5em auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 5%;
+	position: relative;
+	z-index: 2;
+  }
+  
+  .social {
+	text-align: center;
+	font-size: 2.5em;
+	color: #555;
+	overflow: hidden;
+  }
+  .social a {
+	color: inherit;
+	text-decoration: none;
+  }
+ 
+
+.contador p{
+	color: #fff;
+}
+
+#owl-demo .item{
+	background: #3fbf79;
+	padding: 30px 0px;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+  }
+  .customNavigation{
+	text-align: center;
+  }
+  .customNavigation a{
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
