@@ -10,81 +10,103 @@
     <title>Dieisson Martins</title>
     <link rel="stylesheet" href="assets/css/estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    
     <!-- Stylesheets -->
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/docs.theme.min.css">
-
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
     <link rel="shortcut icon" href="favicon.ico">
-
-    <!-- Yeah i know js should not be in header. Its required for demos.-->
-
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-   
-
     <!-- javascript -->
-    
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/owlcarousel/owl.carousel.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-    
-    <style>
-      .item img{
-        padding: 20px;
-      }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-      .home-demo .item{
+    <style>
+      .home-demo .item img{
         background: #ffd800;
         border-radius: 13px;
+        padding: 11px;
+      }
+      .home-demo .item{
+        background: none;
+      }
+      .tel{
+        background: #388bd1;
+        border-radius: 13px;
+      }
+      .tel a h5{
+        color: #fff;
+      }
+      .fa-phone-square{
+        font-size: 1.6em !important;
+      }
+      .contador p{
+        color: #fff;
       }
     </style>
   </head>
   <body>
-
       <header>
-          <div style="background: #388bd1; padding-top: 8px;">
+          <!-- Contador Formatura --->
+          <div style="background: #388bd1;">
               <div class="container contador" >
                   <p class="text-center"><i class="fa fa-graduation-cap" aria-hidden="true"></i> <span id="contador"></span></p>
               </div>
           </div>
-          
-          <figure>
-              <img class="me" src="https://avatars1.githubusercontent.com/u/41637426?s=460&v=4" alt="" />
-          </figure>
-  
+          <!-- Redes Sociais --->
           <div class="container">
+              <div class="row">
+                <div class="col-6 text-left">
+                    <ul class="nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/dieissonmartins"><i class="fa fa-github-alt fa-2x"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/dieisson-martins/"><i class="fa fa-linkedin fa-2x"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i class="fa fa-envelope-o fa-2x"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://profile.codersrank.io/user/dieissonmartins"><i class="fa fa-code fa-2x"></i></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://stackoverflow.com/users/11902320/dieisson-martins"><i class="fa fa-stack-overflow fa-2x"></i></a>
+                      </li>
+                    </ul>
+                </div>
+                <!-- Telefone Contato --->
+                <div class="col-6 text-right">
+                    <ul class="nav justify-content-end">
+                      <li class="nav-item tel">
+                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=5555988643983"><h5><i class="fa fa-phone-square fa-2x"></i> 55 98864 3983 </h5></a>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Foto Avatar --->
+            <div class="container"></div>
+              <figure>
+                  <img class="me" src="https://avatars1.githubusercontent.com/u/41637426?s=460&v=4" alt="" />
+              </figure>
               <h3 class="text-center nome">DIEISSON MARTINS</h3>
-          </div>
-              
-          <div class="social text-center">
-            <a href="https://github.com/dieissonmartins"><i id="github" class="icon-github"></i></a>
-            <a href="https://www.linkedin.com/in/dieisson-martins/"><i id="linkedin" class="icon-linkedin-sign"></i></a>
-            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i id="mail" class="icon-envelope"></i></a>
-            <a href="https://profile.codersrank.io/user/dieissonmartins"><i id="code" class="icon-code"></i></a>
-            <a href="https://stackoverflow.com/users/11902320/dieisson-martins"><i id="stack" class="icon-stackexchange"></i></a>
-            <!--<a href="https://twitter.com/bphillips201"><i id="twitter" class="icon-twitter"></i></a>-->
-            <!--<a href="#" onclick="imprimir()"><i id="imprimir" class="fa fa-print"></i></a>-->
-        <!--<a href="#" onclick="noite()"><i class="fa fa-moon-o"></i></a>-->
-            <!--<i id="plus" class="icon-google-plus-sign"></i>-->
-          </div>          
+            </div>      
       </header>
     <!-- body -->
-    <div class="home-demo">
+    <div class="home-demo container">
       <div class="row">
         <div class="large-12 columns">
-          <!--<h3>Demo</h3>-->
           <div class="owl-carousel">
             <div class="item">
               <img src="assets/img/css3.png">
+              <p class="text-center">CSS</p>
             </div>
             <div class="item">
               <img src="assets/img/css3.png">
@@ -110,6 +132,12 @@
             <div class="item">
               <img src="assets/img/css3.png">
             </div>
+            <div class="item">
+                <img src="assets/img/css3.png">
+              </div>
+              <div class="item">
+                  <img src="assets/img/css3.png">
+                </div>
           </div>
         </div>
       </div>
@@ -127,7 +155,7 @@
             items: 4
           },
           1000: {
-            items: 9
+            items:10
           }
         }
       })
