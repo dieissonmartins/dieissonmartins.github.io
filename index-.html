@@ -30,7 +30,7 @@
     <style>
       .home-demo .item img{
         background: #ffd800;
-        border-radius: 13px;
+        border-radius: 4px;
         padding: 11px;
       }
       .home-demo .item{
@@ -38,7 +38,7 @@
       }
       .tel{
         background: #388bd1;
-        border-radius: 13px;
+        border-radius: 4px;
       }
       .tel a h5{
         color: #fff;
@@ -47,6 +47,25 @@
         font-size: 1.6em !important;
       }
       .contador p{
+        color: #fff;
+      }
+      section{
+        margin-bottom: 1em;
+        border-bottom: 1px solid #dae9f5;
+      }
+      .faco{
+        background: #388bd1;
+        padding: 0.5em;
+        border-radius: 4px;
+        color: #fff;
+        border: none;
+      }
+      .linha-faco{
+        border: 1px solid #388bd1;
+        padding: 3px;
+        background-color: white;
+      }
+      .faco h4, .faco p{
         color: #fff;
       }
     </style>
@@ -99,49 +118,65 @@
               <h3 class="text-center nome">DIEISSON MARTINS</h3>
             </div>      
       </header>
-    <!-- body -->
-    <div class="home-demo container">
-      <div class="row">
+    <!-- Linguagens -->
+    <main class="home-demo container">
+
+      <section class="row">
         <div class="large-12 columns">
           <div class="owl-carousel">
+            <div class="item">
+              <img src="assets/img/html.png">
+              <p class="text-center">HTML</p>
+            </div>
             <div class="item">
               <img src="assets/img/css3.png">
               <p class="text-center">CSS</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/javascript.png">
+              <p class="text-center">JAVASCRIPT</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/php.png">
+              <p class="text-center">PHP</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/wordpress.png">
+              <p class="text-center">WORDPRESS</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/laravel.png">
+              <p class="text-center">LARAVEL</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/docker.png">
+              <p class="text-center">DOCKER</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/uml.png">
+              <p class="text-center">UML</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/mysql.png">
+              <p class="text-center">MYSQL</p>
             </div>
             <div class="item">
-              <img src="assets/img/css3.png">
+              <img src="assets/img/vscode.png">
+              <p class="text-center">VSCODE</p>
             </div>
-            <div class="item">
-                <img src="assets/img/css3.png">
-              </div>
-              <div class="item">
-                  <img src="assets/img/css3.png">
-                </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+
+      <section class="row linha-faco">
+        <div class="text-center faco">
+            <h4>O que faço</h4>
+            <p>Eu sou um desenvolvedor Web de 21 anos com uma grande paixão por codificação. Eu codifico e estudo intensivamente o Desenvolvimento</p>
+
+        </div>
+      </section>
+    </main>
+
     <script>
       var owl = $('.owl-carousel');
       owl.owlCarousel({
@@ -149,7 +184,7 @@
         loop: false,
         responsive: {
           0: {
-            items: 1
+            items: 3
           },
           600: {
             items: 4
