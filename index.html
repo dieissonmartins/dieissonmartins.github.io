@@ -13,6 +13,7 @@
     <!-- Stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/docs.theme.min.css">
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
@@ -28,110 +29,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<style>
-body{
-  font-family: 'Share Tech Mono', monospace;
-}
-.home-demo .item img{
-  background: #ffd800;
-  border-radius: 4px;
-  padding: 11px;
-}
-.home-demo .item{
-  background: none;
-}
-.tel{
-  background: #388bd1;
-  border-radius: 4px;
-}
-.tel a h5{
-  color: #fff;
-}
-.fa-phone-square{
-  font-size: 1.6em !important;
-}
-.contador p{
-  color: #fff;
-  font-family: 'Turret Road', cursive;
-}
-section{
-  margin-bottom: 1em;
-  border-bottom: 1px solid #dae9f5;
-}
-.faco{
-  background: #388bd1;
-  padding: 0.5em;
-  border-radius: 4px;
-  color: #fff;
-  border: none;
-}
-.linha-faco{
-  border: 1px solid #388bd1;
-  padding: 3px;
-  background-color: white;
-}
-.faco h4, .faco p{
-  color: #fff;
-}
-.row{
-  margin: 0 auto !important;
-}
-.portifolio{
-  margin-top: 2em;
-}
-.portifolio-card{
-  padding: 15px !important;
-  margin-bottom: 13px;
-}
-.context-dark, .bg-gray-dark, .bg-primary {
-  color: rgba(255, 255, 255, 0.8);
-}
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-  color: #ffffff;
-}
-.footer-classic{
-  padding-top: 18px;
-}
-.nav-list li {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.nav-list li a:hover:before {
-  margin-left: 0;
-  opacity: 1;
-  visibility: visible;
-}
-ul, ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.social-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding: 23px;
-  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
-}
-.social-container .col {
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.nav-list li a:before {
-  content: "\f14f";
-  font: 400 21px/1 "Material Design Icons";
-  color: #4d6de6;
-  display: inline-block;
-  vertical-align: baseline;
-  margin-left: -28px;
-  margin-right: 7px;
-  opacity: 0;
-  visibility: hidden;
-  transition: .22s ease;
-}
-</style>
   </head>
   <body>
       <header>
@@ -143,8 +40,16 @@ ul, ol {
           </div>
           <!-- Redes Sociais --->
           <div class="container">
+            <div class="row no-gutters social-container">
+              <div class="col"><a class="social-inner" href="https://github.com/dieissonmartins" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a></div>
+              <div class="col"><a class="social-inner" href="https://www.linkedin.com/in/dieisson-martins/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></div>
+              <div class="col"><a class="social-inner" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fa fa-envelope-o fa-2x"></i></a></div>
+              <div class="col"><a class="social-inner" href="https://profile.codersrank.io/user/dieissonmartins" target="_blank"><i class="fa fa-code fa-2x"></i></a></div>
+              <div class="col"><a class="social-inner" href="https://stackoverflow.com/users/11902320/dieisson-martins" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a></div>
+              <div class="col"><a class="social-inner" href="https://api.whatsapp.com/send?phone=5555988643983" target="_blank"><i class="fa fa-phone-square fa-2x"></i></a></div>
+            </div>
               <div class="row">
-                <div class="col-12">
+                <!--<div class="col-12">
                     <ul class="nav justify-content-center">
                       <li class="nav-item">
                         <a class="nav-link" href="https://github.com/dieissonmartins" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a>
@@ -165,7 +70,7 @@ ul, ol {
                           <a class="nav-link" href="https://api.whatsapp.com/send?phone=5555988643983" target="_blank"><i class="fa fa-phone-square fa-2x"></i></a>
                       </li>
                     </ul>
-                </div>
+                </div>-->
                 <!-- Telefone Contato
                 <div class="col-4 nav justify-content-end">
                       <li class="nav-item tel">
@@ -297,7 +202,7 @@ ul, ol {
               <figure>
                 <img class="me" src="https://avatars1.githubusercontent.com/u/41637426?s=460&amp;v=4" alt="">
               </figure>
-              <p class="text-center">Dieisson Martins</p>
+              <p class="text-center"><span>DIEISSON MARTINS</span></p>
               <p class="rights">
                 <span>© </span>
                 <span class="copyright-year">2019</span>
@@ -306,24 +211,24 @@ ul, ol {
             </div>
           </div>
           <div class="col-md-4">
-            <h5>Contato</h5>
+            <h5>CONTATO</h5>
             <!--<dl class="contact-list">
               <dt>Address:</dt>
               <dd>798 South Park Avenue, Jaipur, Raj</dd>
             </dl>-->
             <dl class="contact-list">
-              <dt>E-mail:</dt>
+              <dt>E-MAIL:</dt>
               <dd><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fa fa-envelope-o"></i> dieisson.martins.santos@gmail.com</a></dd>
             </dl>
             <dl class="contact-list">
-              <dt>Telefone:</dt>
+              <dt>TELEFONE:</dt>
               <dd>
                 <a href="https://api.whatsapp.com/send?phone=5555988643983" target="_blank"><i class="fa fa-phone-square"></i> +55 33 98864 3983</a>
               </dd>
             </dl>
           </div>
           <div class="col-md-4 col-xl-3">
-            <h5>Links</h5>
+            <h5>LINKS</h5>
             <ul class="nav-list">
               <li><a href="https://github.com/dieissonmartins" target="_blank">Projetos</a></li>
               <li><a href="https://www.linkedin.com/in/dieisson-martins/" target="_blank">Minha Rede</a></li>
@@ -332,41 +237,20 @@ ul, ol {
         </div>
       </div>
       <div class="row no-gutters social-container">
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
-        <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+        <div class="col"><a class="social-inner" href="https://github.com/dieissonmartins" target="_blank"><i class="fa fa-github-alt fa-2x"></i></a></div>
+        <div class="col"><a class="social-inner" href="https://www.linkedin.com/in/dieisson-martins/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></div>
+        <div class="col"><a class="social-inner" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fa fa-envelope-o fa-2x"></i></a></div>
+        <div class="col"><a class="social-inner" href="https://profile.codersrank.io/user/dieissonmartins" target="_blank"><i class="fa fa-code fa-2x"></i></a></div>
+        <div class="col"><a class="social-inner" href="https://stackoverflow.com/users/11902320/dieisson-martins" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a></div>
+        <div class="col"><a class="social-inner" href="https://api.whatsapp.com/send?phone=5555988643983" target="_blank"><i class="fa fa-phone-square fa-2x"></i></a></div>
       </div>
-    </footer>
-
-    <script>
-      var owl = $('.owl-carousel');
-      owl.owlCarousel({
-        margin: 10,
-        loop: false,
-        responsive: {
-          0: {
-            items: 3
-          },
-          600: {
-            items: 4
-          },
-          1000: {
-            items:10
-          }
-        }
-      })
-    </script>
-
-    
-    <!-- vendors -->
-    <script src="assets/vendors/highlight.js"></script>
-    <script src="assets/js/app.js"></script>
-
-    <footer>
-       <script src="assets/js/contador-formatura.js"></script>
+        
+        <script src="assets/vendors/highlight.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/contador-formatura.js"></script>
 		    <script src="assets/js/imprimir.js"></script>
         <script src="assets/js/lua.js"></script>
+        <script src="assets/js/carousel.js"></script>
     </footer>
   </body>
 </html>
