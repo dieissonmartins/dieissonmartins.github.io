@@ -30,7 +30,7 @@ function atualizaContador()
 	 }
 	 else
 	 {
-	  document.getElementById('contador').innerHTML = 'CHEGOU!!!!';	
+	  document.getElementById('contador').innerHTML = '';	
 	  setTimeout(atualizaContador,1000);  
 	 }
 }
